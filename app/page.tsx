@@ -76,8 +76,8 @@ export default function Home() {
         <div className="hero-image-wrap">
           <div className="portrait-frame">
             <Image
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=90"
-              alt="Portrait placeholder — replace with your own photograph"
+              src="https://raw.githubusercontent.com/VictorSkillz1/Victor-Portfolio/main/victor%20my%20podcast.png"
+              alt="Victor Fabonmi"
               fill priority sizes="(max-width: 800px) 75vw, 42vw" className="hero-image"
             />
           </div>
