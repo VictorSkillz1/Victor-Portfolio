@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import {
-  ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Code2, Globe2,
-  Mail, MapPin, Menu, MousePointer2, Palette, Send, Sparkles, Workflow, X
+  ArrowDownRight, ArrowUpRight, Asterisk, Code2, Globe2,
+  Mail, Menu, MousePointer2, Palette, Send, Sparkles, Workflow, X
 } from "lucide-react";
 
 const projects = [
