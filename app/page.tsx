@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <main>
       <header className="topbar">
-        <a className="brand" href="#top"><span>VICTOR FABONMI</span><small>DIGITAL DESIGNER & DEVELOPER</small></a>
+        <a className="brand" href="#top"><span>PROF. VICTOR</span><small>DIGITAL DESIGNER & DEVELOPER</small></a>
         <nav className={menuOpen ? "nav nav-open" : "nav"}>
           {["WORK", "ABOUT", "PROCESS", "CONTACT"].map((item) => (
             <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setMenuOpen(false)}>{item}</a>
@@ -132,9 +132,9 @@ export default function Home() {
       </section>
 
       <footer className="contact-section section-pad" id="contact">
-        <div className="contact-main"><p className="eyebrow">HAVE SOMETHING IN MIND?</p><h2>LET&apos;S WORK<br /><em>TOGETHER</em><span>.</span></h2><p className="contact-copy">Have a website, digital project, or creative idea in mind? Let&apos;s talk about how we can bring it to life.</p><a className="contact-cta" href="mailto:hello@victorfabonmi.com">START A PROJECT <ArrowUpRight size={18} /></a></div>
+        <div className="contact-main"><p className="eyebrow">HAVE SOMETHING IN MIND?</p><h2>LET&apos;S WORK<br /><em>TOGETHER</em><span>.</span></h2><p className="contact-copy">Have a website, digital project, or creative idea in mind? Let&apos;s talk about how we can bring it to life.</p><a className="contact-cta" href="mailto:victorsignatures@gmail.com">START A PROJECT <ArrowUpRight size={18} /></a></div>
         <div className="contact-details">
-          <a href="mailto:hello@victorfabonmi.com"><span><Mail /></span><div><small>EMAIL</small>hello@victorfabonmi.com</div><ArrowUpRight /></a>
+          <a href="mailto:victorsignatures@gmail.com"><span><Mail /></span><div><small>EMAIL</small>victorsignatures@gmail.com</div><ArrowUpRight /></a>
           <a href="https://wa.me/2340000000000" target="_blank" rel="noreferrer"><span><Send /></span><div><small>WHATSAPP</small>Let&apos;s talk about your project</div><ArrowUpRight /></a>
           <div><span><Globe2 /></span><div><small>LOCATION</small>Nigeria · Available worldwide</div></div>
           <div><span><Workflow /></span><div><small>WHAT I DO</small>Websites · Automation · AI Creative</div></div>
